@@ -10,7 +10,7 @@ if(numero > 0 && numero <= 10 ){
         let mensaje = `${numero} x ${base} = ${resultado}`;
         alert(mensaje);
     }
-} else if (numero <= 0 ){
+} else if (numero < 0 ){
     alert("Ingrese un número positivo");
 } else {
     alert("Ingrese un número del 1 al 10");
